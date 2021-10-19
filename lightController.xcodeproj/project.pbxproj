@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		951F92F126D4DF5700FEDE15 /* lightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F92F026D4DF5700FEDE15 /* lightData.swift */; };
+		951F92F526D4E0FB00FEDE15 /* lineChartGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F92F426D4E0FB00FEDE15 /* lineChartGraph.swift */; };
+		951F931C26D6989600FEDE15 /* barChartGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F931B26D6989600FEDE15 /* barChartGraph.swift */; };
+		951F933E26D7AD0300FEDE15 /* lineChartText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F933D26D7AD0300FEDE15 /* lineChartText.swift */; };
+		951F934126D7AF1300FEDE15 /* barChartText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F934026D7AF1300FEDE15 /* barChartText.swift */; };
+		951F934426D7AF6500FEDE15 /* donutChartGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F934326D7AF6500FEDE15 /* donutChartGraph.swift */; };
+		951F934726D7B83C00FEDE15 /* lightControlTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F934626D7B83C00FEDE15 /* lightControlTabView.swift */; };
+		951F934D26D7B93800FEDE15 /* dataAnalysisTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F934C26D7B93800FEDE15 /* dataAnalysisTabView.swift */; };
+		951F935426DE5CE600FEDE15 /* stackedAreaChartText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F935326DE5CE600FEDE15 /* stackedAreaChartText.swift */; };
+		951F935826DE5CF200FEDE15 /* stackedAreaChartGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F935726DE5CF200FEDE15 /* stackedAreaChartGraph.swift */; };
+		9585DE6C26CBB0A7004E1568 /* lightControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585DE6B26CBB0A7004E1568 /* lightControllerApp.swift */; };
+		9585DE6E26CBB0A7004E1568 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585DE6D26CBB0A7004E1568 /* ContentView.swift */; };
+		9585DE7026CBB0AA004E1568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9585DE6F26CBB0AA004E1568 /* Assets.xcassets */; };
+		9585DE7326CBB0AA004E1568 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9585DE7226CBB0AA004E1568 /* Preview Assets.xcassets */; };
+		9585DE7C26CBB31C004E1568 /* appearance.scn in Resources */ = {isa = PBXBuildFile; fileRef = 9585DE7B26CBB31C004E1568 /* appearance.scn */; };
+		9585DE7F26CBB329004E1568 /* appearance.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9585DE7E26CBB329004E1568 /* appearance.scnassets */; };
+		9588C46026CFAB46000A759E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9588C45F26CFAB46000A759E /* CardView.swift */; };
+		9588C46326CFAFD1000A759E /* 1F.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9588C46226CFAFD1000A759E /* 1F.scnassets */; };
+		9588C46926CFB0F8000A759E /* 1Ftemp.scn in Resources */ = {isa = PBXBuildFile; fileRef = 9588C46826CFB0F8000A759E /* 1Ftemp.scn */; };
+		9588C46C26CFB1A9000A759E /* B1.scn in Resources */ = {isa = PBXBuildFile; fileRef = 9588C46B26CFB1A9000A759E /* B1.scn */; };
+		9588C47026D39385000A759E /* B1.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9588C46F26D39385000A759E /* B1.scnassets */; };
+		95B06ED626E23E7800BDEB95 /* testData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B06ED526E23E7800BDEB95 /* testData.swift */; };
+		95B06ED926E47DB200BDEB95 /* tempLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B06ED826E47DB200BDEB95 /* tempLineChart.swift */; };
+		95C62A7126E9DB3900D7C416 /* SceneKit Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 95C62A7026E9DB3900D7C416 /* SceneKit Scene.scn */; };
+		95FB202C26EA0AC900F76351 /* tapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FB202B26EA0AC900F76351 /* tapGestureRecognizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		951F92F026D4DF5700FEDE15 /* lightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightData.swift; sourceTree = "<group>"; };
+		951F92F426D4E0FB00FEDE15 /* lineChartGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineChartGraph.swift; sourceTree = "<group>"; };
+		951F931B26D6989600FEDE15 /* barChartGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barChartGraph.swift; sourceTree = "<group>"; };
+		951F933D26D7AD0300FEDE15 /* lineChartText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineChartText.swift; sourceTree = "<group>"; };
+		951F934026D7AF1300FEDE15 /* barChartText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barChartText.swift; sourceTree = "<group>"; };
+		951F934326D7AF6500FEDE15 /* donutChartGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donutChartGraph.swift; sourceTree = "<group>"; };
+		951F934626D7B83C00FEDE15 /* lightControlTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightControlTabView.swift; sourceTree = "<group>"; };
+		951F934C26D7B93800FEDE15 /* dataAnalysisTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataAnalysisTabView.swift; sourceTree = "<group>"; };
+		951F935326DE5CE600FEDE15 /* stackedAreaChartText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackedAreaChartText.swift; sourceTree = "<group>"; };
+		951F935726DE5CF200FEDE15 /* stackedAreaChartGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackedAreaChartGraph.swift; sourceTree = "<group>"; };
+		9585DE6826CBB0A7004E1568 /* lightController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lightController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9585DE6B26CBB0A7004E1568 /* lightControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightControllerApp.swift; sourceTree = "<group>"; };
+		9585DE6D26CBB0A7004E1568 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9585DE6F26CBB0AA004E1568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9585DE7226CBB0AA004E1568 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9585DE7426CBB0AA004E1568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9585DE7B26CBB31C004E1568 /* appearance.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = appearance.scn; sourceTree = "<group>"; };
+		9585DE7E26CBB329004E1568 /* appearance.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = appearance.scnassets; sourceTree = "<group>"; };
+		9588C45F26CFAB46000A759E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9588C46226CFAFD1000A759E /* 1F.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = 1F.scnassets; sourceTree = "<group>"; };
+		9588C46826CFB0F8000A759E /* 1Ftemp.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 1Ftemp.scn; sourceTree = "<group>"; };
+		9588C46B26CFB1A9000A759E /* B1.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = B1.scn; sourceTree = "<group>"; };
+		9588C46F26D39385000A759E /* B1.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = B1.scnassets; sourceTree = "<group>"; };
+		95B06ED526E23E7800BDEB95 /* testData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testData.swift; sourceTree = "<group>"; };
+		95B06ED826E47DB200BDEB95 /* tempLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempLineChart.swift; sourceTree = "<group>"; };
+		95C62A7026E9DB3900D7C416 /* SceneKit Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "SceneKit Scene.scn"; sourceTree = "<group>"; };
+		95FB202B26EA0AC900F76351 /* tapGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapGestureRecognizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9585DE6526CBB0A7004E1568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9585DE5F26CBB0A7004E1568 = {
+			isa = PBXGroup;
+			children = (
+				9588C46826CFB0F8000A759E /* 1Ftemp.scn */,
+				95C62A7026E9DB3900D7C416 /* SceneKit Scene.scn */,
+				9588C46B26CFB1A9000A759E /* B1.scn */,
+				9585DE7B26CBB31C004E1568 /* appearance.scn */,
+				9588C46F26D39385000A759E /* B1.scnassets */,
+				9588C46226CFAFD1000A759E /* 1F.scnassets */,
+				9585DE7E26CBB329004E1568 /* appearance.scnassets */,
+				9585DE6A26CBB0A7004E1568 /* lightController */,
+				9585DE6926CBB0A7004E1568 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9585DE6926CBB0A7004E1568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9585DE6826CBB0A7004E1568 /* lightController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9585DE6A26CBB0A7004E1568 /* lightController */ = {
+			isa = PBXGroup;
+			children = (
+				9585DE6B26CBB0A7004E1568 /* lightControllerApp.swift */,
+				951F92F026D4DF5700FEDE15 /* lightData.swift */,
+				95B06ED526E23E7800BDEB95 /* testData.swift */,
+				95B06ED826E47DB200BDEB95 /* tempLineChart.swift */,
+				951F92F426D4E0FB00FEDE15 /* lineChartGraph.swift */,
+				951F933D26D7AD0300FEDE15 /* lineChartText.swift */,
+				951F935726DE5CF200FEDE15 /* stackedAreaChartGraph.swift */,
+				951F935326DE5CE600FEDE15 /* stackedAreaChartText.swift */,
+				951F931B26D6989600FEDE15 /* barChartGraph.swift */,
+				951F934026D7AF1300FEDE15 /* barChartText.swift */,
+				951F934326D7AF6500FEDE15 /* donutChartGraph.swift */,
+				9588C45F26CFAB46000A759E /* CardView.swift */,
+				951F934626D7B83C00FEDE15 /* lightControlTabView.swift */,
+				951F934C26D7B93800FEDE15 /* dataAnalysisTabView.swift */,
+				95FB202B26EA0AC900F76351 /* tapGestureRecognizer.swift */,
+				9585DE6D26CBB0A7004E1568 /* ContentView.swift */,
+				9585DE6F26CBB0AA004E1568 /* Assets.xcassets */,
+				9585DE7426CBB0AA004E1568 /* Info.plist */,
+				9585DE7126CBB0AA004E1568 /* Preview Content */,
+			);
+			path = lightController;
+			sourceTree = "<group>";
+		};
+		9585DE7126CBB0AA004E1568 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9585DE7226CBB0AA004E1568 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9585DE6726CBB0A7004E1568 /* lightController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9585DE7726CBB0AA004E1568 /* Build configuration list for PBXNativeTarget "lightController" */;
+			buildPhases = (
+				9585DE6426CBB0A7004E1568 /* Sources */,
+				9585DE6526CBB0A7004E1568 /* Frameworks */,
+				9585DE6626CBB0A7004E1568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lightController;
+			packageProductDependencies = (
+			);
+			productName = lightController;
+			productReference = 9585DE6826CBB0A7004E1568 /* lightController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9585DE6026CBB0A7004E1568 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9585DE6726CBB0A7004E1568 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 9585DE6326CBB0A7004E1568 /* Build configuration list for PBXProject "lightController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9585DE5F26CBB0A7004E1568;
+			packageReferences = (
+				951A8E4926CCC1950093DF1C /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+				9588C3E826CE3074000A759E /* XCRemoteSwiftPackageReference "SwiftUI-Tooltip" */,
+			);
+			productRefGroup = 9585DE6926CBB0A7004E1568 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9585DE6726CBB0A7004E1568 /* lightController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9585DE6626CBB0A7004E1568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9585DE7C26CBB31C004E1568 /* appearance.scn in Resources */,
+				9585DE7F26CBB329004E1568 /* appearance.scnassets in Resources */,
+				9588C46C26CFB1A9000A759E /* B1.scn in Resources */,
+				9588C46926CFB0F8000A759E /* 1Ftemp.scn in Resources */,
+				9588C47026D39385000A759E /* B1.scnassets in Resources */,
+				9585DE7326CBB0AA004E1568 /* Preview Assets.xcassets in Resources */,
+				9588C46326CFAFD1000A759E /* 1F.scnassets in Resources */,
+				9585DE7026CBB0AA004E1568 /* Assets.xcassets in Resources */,
+				95C62A7126E9DB3900D7C416 /* SceneKit Scene.scn in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9585DE6426CBB0A7004E1568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9585DE6E26CBB0A7004E1568 /* ContentView.swift in Sources */,
+				95FB202C26EA0AC900F76351 /* tapGestureRecognizer.swift in Sources */,
+				951F934126D7AF1300FEDE15 /* barChartText.swift in Sources */,
+				951F935426DE5CE600FEDE15 /* stackedAreaChartText.swift in Sources */,
+				951F934426D7AF6500FEDE15 /* donutChartGraph.swift in Sources */,
+				951F934726D7B83C00FEDE15 /* lightControlTabView.swift in Sources */,
+				951F931C26D6989600FEDE15 /* barChartGraph.swift in Sources */,
+				951F935826DE5CF200FEDE15 /* stackedAreaChartGraph.swift in Sources */,
+				951F92F126D4DF5700FEDE15 /* lightData.swift in Sources */,
+				951F92F526D4E0FB00FEDE15 /* lineChartGraph.swift in Sources */,
+				95B06ED926E47DB200BDEB95 /* tempLineChart.swift in Sources */,
+				951F934D26D7B93800FEDE15 /* dataAnalysisTabView.swift in Sources */,
+				9588C46026CFAB46000A759E /* CardView.swift in Sources */,
+				951F933E26D7AD0300FEDE15 /* lineChartText.swift in Sources */,
+				9585DE6C26CBB0A7004E1568 /* lightControllerApp.swift in Sources */,
+				95B06ED626E23E7800BDEB95 /* testData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9585DE7526CBB0AA004E1568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9585DE7626CBB0AA004E1568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9585DE7826CBB0AA004E1568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"lightController/Preview Content\"";
+				DEVELOPMENT_TEAM = 4B43H288S5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = lightController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.lightController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9585DE7926CBB0AA004E1568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"lightController/Preview Content\"";
+				DEVELOPMENT_TEAM = 4B43H288S5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = lightController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.lightController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9585DE6326CBB0A7004E1568 /* Build configuration list for PBXProject "lightController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9585DE7526CBB0AA004E1568 /* Debug */,
+				9585DE7626CBB0AA004E1568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9585DE7726CBB0AA004E1568 /* Build configuration list for PBXNativeTarget "lightController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9585DE7826CBB0AA004E1568 /* Debug */,
+				9585DE7926CBB0AA004E1568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		951A8E4926CCC1950093DF1C /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/willdale/SwiftUICharts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
+		9588C3E826CE3074000A759E /* XCRemoteSwiftPackageReference "SwiftUI-Tooltip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/quassummanus/SwiftUI-Tooltip.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 9585DE6026CBB0A7004E1568 /* Project object */;
+}
